@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import React, { Dispatch, SetStateAction } from "react";
 
 interface Props{
-    openForm: Dispatch<SetStateAction<Boolean>>
+    openForm: Dispatch<SetStateAction<boolean>>
 }
 export default function NavBar({openForm}:Props){
     return (
